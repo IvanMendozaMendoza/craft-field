@@ -13,4 +13,4 @@ app.get("/", (req, res) => {
   res.send(newPassword);
 });
 
-app.listen(8000, '127.0.0.1', () => console.log("listen on port 8000"));
+app.listen(8000, () => console.log("listen on port 8000"));
